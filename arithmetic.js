@@ -2,7 +2,7 @@ console.log(10+20)
 console.log(2**8)
 console.log(2^4)
 var num=-10;
-if(num>0){
+if(num>=0){
     console.log(+num+ " is a positive number");
 }
 else{
