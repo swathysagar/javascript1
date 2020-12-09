@@ -29,10 +29,10 @@
  console.log(sum);
 //reverse
  var num=123;
-var n2=0;
+var n2=0; // or we can use n2="";
 while(num!=0){
  var digit=num%10;
- n2=n2*10+digit;
+ n2=n2*10+digit; // or we can use n2=n2+String(digit)
  num=Math.floor(num/10);
 }
 console.log(n2);
